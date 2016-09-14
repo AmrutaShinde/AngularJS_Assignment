@@ -1,5 +1,5 @@
 .headImage{
-    background-size: 1600px 700px;
+    background-size: 100% 700px;
     height:50%;
 }
 .try{
@@ -19,4 +19,7 @@
     text-shadow: 0.1em 0.1em 0.2em white;
 }
 
+.panel-default{
+    width: 90%;
+}
 
