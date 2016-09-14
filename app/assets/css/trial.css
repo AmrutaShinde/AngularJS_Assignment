@@ -1,0 +1,22 @@
+.headImage{
+    background-size: 1600px 700px;
+    height:50%;
+}
+.try{
+    height:300px;
+    width:300px;
+}
+#pos{
+    position: fixed;
+    left: 0px;
+    top: 220px;
+}
+#pos1{
+    position: fixed;
+}
+#sideshadow{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+

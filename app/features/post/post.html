@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This is th restricted page. Without login user cannot upload his file-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Clean Blog - Sample Post</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/trial.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="../../assets/css/clean-blog.min.css" rel="stylesheet">
+    <link href="../../assets/css/trial.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('../../assets/img/upload.png')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1></h1>
+                        <br><br><br><br><br>
+                        <span class="subheading"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div style="float:right;width: 85%">
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>Upload Files</strong></div>
+                <div class="panel-body">
+
+                    <!--The uploaded image should go to server/admin who will decide whether the image should be included in website or not-->
+
+                    <!-- Standar Form -->
+                    <p>You can make any of the crafts we have given, take a picture, scan and upload it and we will display
+                        it with your name in the Crafts Photos sent by User in our site. You can also send your photo taken
+                        along with the craft.</p>
+                    <h4>Select files from your computer</h4>
+                    <div class="form-group">
+                        <label for="text" class="col-sm-3 control-label">User Name</label>
+                        <div class="col-sm-5">
+                            <input type="text" id="username" placeholder="Name" class="form-control">
+                        </div>
+                    </div>
+                    <br><br>
+                   <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
+                        <div class="form-inline">
+                            <div class="form-group">
+                                <input type="file" name="files[]" id="js-upload-files" multiple>
+                            </div>
+                            <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload files</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <!-- /container -->
+    </div>
+
+
+
+
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="../../assets/vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="../../assets/js/jqBootstrapValidation.js"></script>
+    <script src="../../assets/js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="../../assets/js/clean-blog.min.js"></script>
+    <script src="../../assets/js/upload.js"></script>
+
+</body>
+
+</html>
